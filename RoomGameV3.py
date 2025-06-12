@@ -265,7 +265,7 @@ def main():
         bridges = Bridges(1, "vilvt", "1609338639449")
         bridges.set_title("BRIDGES Grid Adventure Game")
         bridges.set_description("Explore 9 rooms, collect items, and win!")
-        game = RoomGame(1, "vilvt", "1609338639449")
+        game = RoomGame(1, "ENTER BRIDGES USERNAME", "ENTER API KEY")
         game.start()
     except Exception as e:
         print("An error occurred:", e)
